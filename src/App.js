@@ -12,7 +12,7 @@ function App() {
       </main>
       <footer className="App-footer">
         <small>
-          Coded by Valentina Di Santo
+          Coded by <a href="https://github.com/Valentinawalechan/My-dictionary-app" target="_blank" rel="noreferrer"> Valentina Di Santo</a> 
         </small>
       </footer>
     </div>
