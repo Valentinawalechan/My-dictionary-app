@@ -1,0 +1,11 @@
+.Phonetic {
+  margin: 10px 0;
+}
+.Phonetic a {
+  padding: 10px 5px;
+  font-size: 20px;
+}
+
+.Phonetic AiFillPlayCircle {
+  color: yellow;
+}

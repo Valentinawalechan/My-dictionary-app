@@ -1,5 +1,6 @@
 import React from "react";
 import {AiFillPlayCircle} from "react-icons/ai";
+import "./Phonetic.css";
 
 export default function Phonetic (props) {
     return (
