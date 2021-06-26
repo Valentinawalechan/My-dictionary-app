@@ -53,9 +53,10 @@ export default function Dictionary(props) {
              </div>
              <div className="col-4">
             <input
-            type="button"
+            type="submit"
             value="Search"
-            className="button-search" />
+            className="button-search"
+            onClick={search} />
            </div>
            </div>
              </form> 
