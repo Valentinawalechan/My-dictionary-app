@@ -5,9 +5,10 @@
 }
 
 .App-header {
-  background-color: #ffff;
   margin: 0 auto;
-  color: black;
+  color: rgb(26, 138, 59);
+  font-weight: bold;
+  font-size: 70px;
 }
 
 .App-footer {

@@ -4,8 +4,5 @@
 .Phonetic a {
   padding: 10px 5px;
   font-size: 20px;
-}
-
-.Phonetic AiFillPlayCircle {
-  color: yellow;
+  color: rgb(5, 90, 55);
 }
