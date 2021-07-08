@@ -1,14 +1,30 @@
 import React from "react";
-import {AiFillPlayCircle} from "react-icons/ai";
 import "./Phonetic.css";
 
-export default function Phonetic (props) {
+
+export default function Phonetic(props) {
+  let audio = new Audio(props.phonetic.audio);
+
+    function playSound(){
+        audio.play();
+
+    }
+    if(props.phonetic.audio) {
+
     return (
-        <div className="Phonetic">
-            <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
-                <AiFillPlayCircle />
-            </a>
-            {props.phonetic.text}
-        </div>
+    <>
+    <button onClick={playSound} className="audio">
+           🔊 
+        </button> {"  "}
+    <span className="phonetic">{props.phonetic.text}</span><br/> 
+    </>
     )
+  } else {return (
+      <>
+        
+        
+        <span className="phonetic">{props.phonetic.text}</span><br/>
+      </>)
+      }
+  
 }

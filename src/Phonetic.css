@@ -1,8 +1,8 @@
 .Phonetic {
   margin: 10px 0;
 }
-.Phonetic a {
-  padding: 10px 5px;
-  font-size: 20px;
-  color: rgb(5, 90, 55);
+button {
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid black;
 }
